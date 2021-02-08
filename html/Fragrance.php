@@ -5,7 +5,7 @@
     <title>Fragrance</title>
 </head>
 <body>
-<div class="container c2" data-aos="zoom-out">
+<div class="container c2 c3" data-aos="zoom-out">
     <div class="theme-pic-container">
         <img src="../css/ingredients.jpg" class="img-responsive" width="537" height="600">
     </div>

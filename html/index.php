@@ -38,8 +38,9 @@
             <img src="../css/pink-mini.png" class="img-responsive mini-pic left" width="200" height="352">
         </div>
         <div class="left-text text">
-            nurturing, fragile. That's her magical power, her femininity. Living in this cruel world, a man's world.
-            She's is here to shine, but to make the world a better place too, like a fay.
+            nurturing, fragile. That's her magical power, her femininity.
+            Living in this cruel world, a man's world.
+            She's is here to make the world a better place and to give some shine - like a fay.
         </div>
     </div>
     <div class="pic-container">
@@ -58,8 +59,9 @@
             <img src="../css/black-mini.png" class="img-responsive mini-pic right" width="200" height="352">
         </div>
         <div class="right-text text">
-             harsh, tough. That's her real power, her strength.Living in this cruel world, a man's world.
-            She is here to survive, but to win too, just like a knight.
+            harsh, tough. That's her real power, her strength.
+            Living in this cruel world, a man's world.
+            She is here to survive and to win - just like a knight
         </div>
     </div>
 </div>

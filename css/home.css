@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: "Corbel Light", cursive;
+    font-family: "Josefin Sans", cursive;
     font-size: 1.5vw;
 }
 
@@ -106,6 +106,10 @@ a:focus, a:hover, a {
     width: 70%;
 }
 
+.c3 {
+    margin: 10% auto 17% auto;
+}
+
 .logo-container {
     margin-left: 3%;
     display: inline-flex;
@@ -127,7 +131,7 @@ a:focus, a:hover, a {
 
 .mini-text-container {
     margin-left: 5.3%;
-    font-family: "Corbel Light", cursive;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 2.0vw;
     letter-spacing: 3px;
 }
