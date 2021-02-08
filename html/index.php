@@ -53,7 +53,7 @@
     </div>
     <div class="description-container">
         <div class="right title">
-            But she can be masculine,
+            She can be masculine,
         </div>
         <div class="pic-container right">
             <img src="../css/black-mini.png" class="img-responsive mini-pic right" width="200" height="352">
