@@ -1,0 +1,369 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Corbel Light", cursive;
+    font-size: 1.5vw;
+}
+
+.nav {
+    position: fixed;
+    right: 0;
+    z-index: 20;
+}
+
+.navbar {
+    position: fixed;
+    padding-right: 0;
+    padding-left: 0;
+    right: 0;
+    display: inline-flex;
+    float: right;
+    z-index: 1;
+    border: none;
+}
+
+.navbar-collapse {
+    padding-right: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 25px;
+    padding-left: 22px;
+}
+
+.nav a {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.9vw;
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.9vw;
+    color: black;
+}
+
+.navbar-toggler {
+    padding: .75rem .75rem;
+    background-color: #919191;
+}
+
+.navbar-toggler-icon {
+    width: 3.5em;
+    height: 2.5em;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #eee
+}
+
+.navbar-nav > li > a {
+    padding: 23px 0;
+}
+
+a:focus, a:hover, a {
+    outline: none;
+    color: #000000 !important;
+}
+
+.background {
+    background-color:  #d2d0d080;
+}
+
+.container {
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    max-width: 100%;
+}
+
+.container div {
+    box-sizing: border-box;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+.c1 {
+    margin: 0 auto 5% auto !important;
+    width: 80%;
+}
+
+.c2 {
+    margin: 10% auto 15% auto;
+    width: 70%;
+}
+
+.logo-container {
+    margin-left: 3%;
+    display: inline-flex;
+}
+
+.img-responsive {
+    display: inline-block !important;
+    height: auto !important;
+}
+
+.main-name-container {
+    margin-top: 19%;
+    font-family: 'Megrim', cursive;
+    font-size: 5.5vw;
+    letter-spacing: 5.87px;
+    z-index: 30;
+    color: black;
+}
+
+.mini-text-container {
+    margin-left: 5.3%;
+    font-family: "Corbel Light", cursive;
+    font-size: 2.0vw;
+    letter-spacing: 3px;
+}
+
+.main-pic-container {
+    margin-left: -6%;
+    width: 38%;
+}
+
+.perfume-container {
+    margin-left: 3%;
+    margin-top: 30%;
+    width: 25%;
+}
+
+.pic-container {
+    width: 50%;
+}
+
+.description-container {
+    width: 50%;
+}
+
+.theme-pic-container {
+    position: absolute;
+    margin-top: 10% !important;
+    width: 45%;
+}
+
+div [class*="description"] {
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    color: #000000;
+}
+
+.intro-description {
+    margin: 10% 9% 0 3%;
+    width: 30%;
+}
+
+.description {
+    margin: 0 0 0 22.5%;
+    padding: 20% 10% 10% 26% !important;
+    width: 78% !important;
+    background-color: #edd5dbc4;
+}
+
+.title, .text {
+    display: inline-flex;
+}
+
+.title {
+    font-size: 3.0vw;
+}
+
+.left-text {
+    margin: 18% 20% 20% 0;
+    text-align: left;
+}
+
+.right-text {
+    margin: 18% 0 20% 20%;
+    text-align: right;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+button, button:focus-visible, button:focus {
+    outline: none;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    body, .mini-text-container, .navbar-dark .navbar-nav .nav-link {
+        font-size: 2.3vh;
+    }
+
+    .c1, .c2, .title, .main-pic-container, .pic-container,
+    .theme-pic-container, .description-container, .navbar-nav {
+        width: 100%;
+    }
+
+    .logo-container, .main-name-container,
+    .left, .right, .left-text, .right-text,
+    .title, div[class*="description"] {
+        float: none;
+        text-align: center;
+     }
+
+    .container div {
+        min-height: auto !important;
+    }
+
+    .c1 {
+        margin: 0 auto 0 auto !important;
+    }
+
+    .description-container .left-text {
+        margin-top: 0 !important;
+    }
+
+    .container {
+        flex-direction: column !important;
+    }
+
+    .logo-container {
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .main-name-container {
+        font-size: 6vh;
+    }
+
+    .perfume-container {
+        margin: 6% 0 0 auto;
+        width: 70%;
+    }
+
+    .main-pic-container {
+        margin: 10% auto 0 auto;
+    }
+
+    .pic-container {
+        order: 2;
+    }
+
+    .theme-pic-container {
+        position: relative;
+        margin-top: 0 !important;
+        order: 2;
+    }
+
+    .mini-text-container {
+      margin-left: 0;
+    }
+
+    .mini-pic {
+        margin-bottom: 12%;
+    }
+
+    .main-pic, img {
+        height: auto !important;
+    }
+
+    .left-text, .right-text {
+        margin: 0 auto 10% auto !important;
+        width: 80%;
+    }
+
+    .title {
+        display: block;
+        font-size: 2.5vh;
+    }
+
+    div[class*="description"] {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-description {
+        margin: 10% auto;
+        width: 80% !important;
+    }
+
+    .description {
+        margin: 0 auto;
+        padding: 20% 10% 10% 10% !important;
+        width: 100% !important;
+    }
+
+    .navbar {
+        width: 50%;
+        z-index: 90;
+    }
+
+    .navbar-nav {
+        background-color: #e4c1ca;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+        background-color: transparent;
+    }
+
+    .navbar-toggler {
+        margin-top: 0;
+    }
+
+    .navbar-toggler-icon {
+        width: 5.5vh;
+        height: 5.5vh;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 767px) {
+
+    body, .mini-text-container, .navbar-dark .navbar-nav .nav-link {
+        font-size: 5vh;
+    }
+
+    .main-pic-container, .pic-container, .perfume-container, .theme-pic-container {
+        margin: 0 auto 10% auto;
+        width: 70% !important;
+        height: auto !important;
+    }
+
+    .c2 {
+        margin: 10% auto 0 auto;
+    }
+
+    .main-name-container {
+        font-size: 11vh;
+    }
+
+    .perfume-container {
+        width: 50% !important;
+    }
+
+    .img-responsive:not(.mini-pic) {
+        width: 100% !important;
+    }
+
+    .mini-pic {
+        margin-bottom: 0;
+    }
+
+    .title {
+        font-size: 10vh;
+    }
+
+    .navbar-toggler-icon {
+        width: 9.5vh;
+        height: 9.5vh;
+    }
+}
+
