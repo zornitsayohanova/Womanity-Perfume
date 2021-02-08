@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php include 'Repeated.php';?>
+    <?php include 'repeated.php';?>
     <title>Home</title>
 </head>
 <body>

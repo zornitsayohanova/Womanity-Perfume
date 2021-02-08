@@ -29,16 +29,16 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav flex-column menu-fixed">
             <li class="nav-item">
-                <a class="nav-link" href="Home.php">HOME</a>
+                <a class="nav-link" href="index.php">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Concept.php">CONCEPT</a>
+                <a class="nav-link" href="concept.php">CONCEPT</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Fragrance.php">FRAGRANCE</a>
+                <a class="nav-link" href="fragrance.php">FRAGRANCE</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Visit.php">VISIT US</a>
+                <a class="nav-link" href="visit-us.php">VISIT US</a>
             </li>
         </ul>
     </div>
